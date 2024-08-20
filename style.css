@@ -1,19 +1,22 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e7dfd8;
+}
+
+.contentainer {
+    padding: 99px 80px;
+}
+
 .mays-img {
     border-radius: 12px;
-    width: 518px;
-    height: 500px;
-    margin: 76px;
 }
 
 .koko-text {
     border-radius: 12px;
     width: 518px;
     height: 75px;
-}
-
-.main {
-    background: #e7dfd8;
-
 }
 
 .h3 {
@@ -25,11 +28,13 @@
 
 .miki-mays-contentainer {
     display: flex;
+    gap: 107px;
 }
 
 .mays-text {
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
 .a-1 {
     border-radius: 8px;
     padding: 10px 20px;
@@ -37,7 +42,12 @@
     height: 43px;
     background: #b99fea;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
 }
+
 .a-2 {
     border-radius: 8px;
     padding: 10px 20px;
@@ -45,7 +55,12 @@
     height: 43px;
     background: #eba789;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
 }
+
 .a-3 {
     border-radius: 8px;
     padding: 10px 20px;
@@ -53,10 +68,15 @@
     height: 43px;
     background: #96dbc6;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #000;
 }
 
 .koko-contentainer {
     display: flex;
+    gap: 107px;
 }
 
 .div {
@@ -65,18 +85,15 @@
 
 .koko-img {
     border-radius: 12px;
-    width: 518px;
-    height: 500px;
-    margin: 76px;
 }
 
 .Wayana-contentainer {
     display: flex;
+    gap: 107px;
 }
 
 .Wayana-img {
     border-radius: 12px;
-    margin: 76px;
 }
 
 .span-1 {
@@ -126,12 +143,15 @@
 
 p.Wayana-text {
     width: 489px;
+    margin-bottom: 35px;
 }
 
 .mays-text {
     width: 489px;
+    margin-bottom: 35px;
 }
 
 .koko-text {
     width: 489px;
+    margin-bottom: 25px;
 }
